@@ -25,5 +25,10 @@ class Casetest(unittest.TestCase):
         actual = FizzBuzz(75)
         self.assertEqual(exp, actual, "Should be fizzbuzz")
 
+    def test_should_repeat_the_number_if_not_fizz_or_buzz_or_fizzbuzz(self):
+        exp = "7"
+        actual = FizzBuzz(7)
+        self.assertEqual(exp, actual, "7")
+
 if __name__ == '__main__':
     unittest.main()
