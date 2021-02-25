@@ -1,3 +1,4 @@
 def FizzBuzz(numbre):
-    if numbre == 0:
+    if numbre <= 0:
         raise ValueError
+    
