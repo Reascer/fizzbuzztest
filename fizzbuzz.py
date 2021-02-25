@@ -1,5 +1,6 @@
 def FizzBuzz(numbre):
     if numbre <= 0:
         raise ValueError
-    return ">___<"
+    if numbre % 3 == 0:
+        return "fizz"
     
