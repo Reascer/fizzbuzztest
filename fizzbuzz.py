@@ -7,5 +7,6 @@ def FizzBuzz(numbre):
         return "fizz"
     if numbre % 5 == 0:
         return "buzz"
+    return str(numbre)
     
     
