@@ -6,5 +6,9 @@ class Casetest(unittest.TestCase):
         with self.assertRaises(ValueError):
             FizzBuzz(0)
 
+    def test_should_raise_error_with_negative_number(self):
+        with self.assertRaises(ValueError):
+            FizzBuzz(-5)
+
 if __name__ == '__main__':
     unittest.main()
