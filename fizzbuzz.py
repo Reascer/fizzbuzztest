@@ -1,2 +1,3 @@
 def FizzBuzz(numbre):
-    return True
+    if numbre == 0:
+        raise ValueError
