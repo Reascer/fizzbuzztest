@@ -1,4 +1,8 @@
 def FizzBuzz(numbre):
+    # if numbre is not an int, it will raise ValueError
+    if type(numbre) != int:
+        raise ValueError
+    
     # if numbre is smaller than or equal to 0, it will raise ValueError
     if numbre <= 0:
         raise ValueError
