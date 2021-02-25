@@ -30,5 +30,9 @@ class Casetest(unittest.TestCase):
         actual = FizzBuzz(7)
         self.assertEqual(exp, actual, "7")
 
+    def test_should_raise_error_if_number_is_not_int(self):
+        with self.assertRaises(ValueError):
+            FizzBuzz(">___<")
+
 if __name__ == '__main__':
     unittest.main()
