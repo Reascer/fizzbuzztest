@@ -21,5 +21,8 @@ def FizzBuzz(numbre):
     
     # else means non of the conditions was triggered so, it return the numbre
     return str(numbre)
-    
+
+def getAliceNumbre():
+    numbre = int(input("Give us a numbre Alice : "))
+    print(FizzBuzz(numbre))
     
